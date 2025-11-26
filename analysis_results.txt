@@ -1,0 +1,17 @@
+Pearson correlation test results
+
+	Pearson's product-moment correlation
+
+data:  df_clean[[ladder_col]] and df_clean[[gdp_col]]
+t = 21.992, df = 313, p-value < 2.2e-16
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ 0.7316627 0.8191467
+sample estimates:
+      cor 
+0.7791711 
+
+
+Columns used:
+Ladder: Happiness Score 
+GDP: Economy (GDP per Capita) 
