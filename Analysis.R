@@ -1,5 +1,5 @@
 # Analysis.R  -- World Happiness (2015-2022)
-# Author: <Sivajeevan / Group>
+# Author: <Sivajeevan / GroupB 172>
 # Date: <12-12-2025>
 # Purpose: Combine yearly CSVs, compute Pearson correlation (Happiness Score vs GDP per capita),
 #          save combined CSV and two plots for report and reproducibility.
@@ -21,9 +21,9 @@ dfs <- lapply(files, function(f) {
 })
 df_all <- bind_rows(dfs)
 
-# 3. Choose columns (set exact names that appear in the files)
-ladder_col <- "Happiness Score"                # <- change if your exact column name differs
-gdp_col    <- "Economy (GDP per Capita)"       # <- change if needed
+# 3. Choose columns 
+ladder_col <- "Happiness Score"                
+gdp_col    <- "Economy (GDP per Capita)"      
 
 # 4. Convert chosen columns to numeric and clean
 df_all[[ladder_col]] <- as.numeric(gsub(",", "", df_all[[ladder_col]]))
@@ -60,3 +60,4 @@ ggsave("plot_histogram.png", h, width = 7, height = 4, dpi = 200)
 
 # Finish
 message("Done. Files created: world_happiness_combined_2015_2022.csv, plot_scatter.png, plot_histogram.png, analysis_results.txt")
+
