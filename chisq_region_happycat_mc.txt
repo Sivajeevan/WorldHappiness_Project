@@ -1,0 +1,8 @@
+Chi-square (Monte Carlo) for region x happy_cat2:
+
+	Pearson's Chi-squared test with simulated p-value (based on 20000
+	replicates)
+
+data:  ct2
+X-squared = 139.69, df = NA, p-value = 5e-05
+
