@@ -1,8 +1,0 @@
-Wilcoxon median-split GDP output:
-
-	Wilcoxon rank sum test with continuity correction
-
-data:  df_clean[[ladder_col]] by df_clean$gdp_group
-W = 21866, p-value < 2.2e-16
-alternative hypothesis: true location shift is not equal to 0
-
