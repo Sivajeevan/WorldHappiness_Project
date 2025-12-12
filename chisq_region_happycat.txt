@@ -1,7 +1,0 @@
-Chi-square test output (region x happy_cat):
-
-	Pearson's Chi-squared test
-
-data:  ct
-X-squared = 232.74, df = 18, p-value < 2.2e-16
-
